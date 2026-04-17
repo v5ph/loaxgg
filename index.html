@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOAX</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="masthead-grid" aria-label="LOAX header">
+        <nav class="module module-nav" aria-label="LOAX links">
+          <a href="#">WHITEPAPER</a>
+          <span class="nav-separator" aria-hidden="true">|</span>
+          <a href="#">DOCUMENTATION</a>
+          <span class="nav-separator" aria-hidden="true">|</span>
+          <a href="/">HOME</a>
+        </nav>
+
+        <div class="module module-index" aria-hidden="true">
+          <div class="index-art">
+            <img src="/Dragonfly.png" alt="" class="index-art-image" />
+          </div>
+          <span>0.0.1</span>
+        </div>
+
+        <div class="module module-mark" aria-hidden="true">
+          <span class="mark-plus"></span>
+          <span class="mark-plus"></span>
+          <span class="mark-plus"></span>
+          <span class="mark-plus"></span>
+        </div>
+
+        <section class="module module-signal" aria-label="LOAX signal">
+          <div class="signal-rail" aria-hidden="true">
+            <span class="signal-coordinate">[ 40.7128 N ]</span>
+            <span class="signal-crosshair">+</span>
+            <span class="signal-crosshair">+</span>
+            <span class="signal-coordinate">[ 74.0060 W ]</span>
+          </div>
+          <p class="signal-kicker">Quickstart</p>
+          <div class="terminal-window" aria-label="LOAX quickstart terminal">
+            <div class="terminal-chrome">
+              <div class="terminal-lights" aria-hidden="true">
+                <span class="terminal-light terminal-light-red"></span>
+                <span class="terminal-light terminal-light-yellow"></span>
+                <span class="terminal-light terminal-light-green"></span>
+              </div>
+              <button
+                class="terminal-copy-button"
+                type="button"
+                data-copy-target="loax-quickstart"
+                aria-label="Copy quickstart commands"
+                title="Copy quickstart commands"
+              >
+                <span class="copy-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+            <div
+              class="signal-commands"
+              id="loax-quickstart"
+              data-copy-value='npm install loax
+loax --version
+loax
+loax chat "<prompt>"'
+            >
+              <div class="terminal-input">
+                <span class="terminal-prompt">$</span>
+                <code><span class="cmd-name">npm</span> <span class="cmd-arg">install</span> <span class="cmd-target">loax</span></code>
+              </div>
+              <div class="terminal-input">
+                <span class="terminal-prompt">$</span>
+                <code><span class="cmd-name">loax</span> <span class="cmd-flag">--version</span></code>
+              </div>
+              <div class="terminal-input">
+                <span class="terminal-prompt">$</span>
+                <code><span class="cmd-name">loax</span></code>
+              </div>
+              <div class="terminal-input">
+                <span class="terminal-prompt">$</span>
+                <code>
+                  <span class="cmd-name">loax</span>
+                  <span class="cmd-arg">chat</span>
+                  <span class="cmd-string" data-type-target>&quot;&lt;prompt&gt;&quot;</span>
+                  <span class="type-caret" aria-hidden="true"></span>
+                </code>
+              </div>
+            </div>
+          </div>
+          <div class="signal-copy" aria-label="LOAX chat shortcut">
+            <div class="terminal-input">
+              <span class="terminal-prompt">$</span>
+              <code><span class="cmd-name">loax</span> <span class="cmd-arg">chat</span> <span class="cmd-string">&quot;&lt;prompt&gt;&quot;</span></code>
+            </div>
+            <p class="signal-note">Use this to run LOAX without opening the CLI interface.</p>
+          </div>
+        </section>
+
+        <section class="module module-hero">
+          <div class="hero-header">
+            <h1>LOAX</h1>
+            <p class="hero-copy">
+              Stress-test your strategy across hundreds of market scenarios. See where it works, where it fails, and how to improve—before risking capital.
+            </p>
+          </div>
+          <div class="hero-features">
+            <div class="feature-item">
+              <div class="feature-head">
+                <span class="feature-icon feature-icon-grid" aria-hidden="true"></span>
+                <p class="summary-kicker">Market Simulation</p>
+              </div>
+              <span class="feature-accent feature-sparkline" aria-hidden="true">
+                <span></span>
+              </span>
+              <p class="summary-detail">
+                Model traders, whales, and bots interacting under real conditions.
+              </p>
+            </div>
+            <div class="feature-item">
+              <div class="feature-head">
+                <span class="feature-icon feature-icon-alert" aria-hidden="true"></span>
+                <p class="summary-kicker">Stress Testing</p>
+              </div>
+              <p class="summary-detail">
+                Expose failure under volatility, liquidity drops, and panic.
+              </p>
+            </div>
+            <div class="feature-item">
+              <div class="feature-head">
+                <span class="feature-icon feature-icon-split" aria-hidden="true"></span>
+                <p class="summary-kicker">Parallel Runs</p>
+              </div>
+              <p class="summary-detail">Run hundreds of scenarios simultaneously.</p>
+            </div>
+            <div class="feature-item">
+              <div class="feature-head">
+                <span class="feature-icon feature-icon-scan" aria-hidden="true"></span>
+                <p class="summary-kicker">Breakpoint Detection</p>
+              </div>
+              <p class="summary-detail">
+                Find collapse zones and instability regions.
+              </p>
+            </div>
+            <div class="feature-item">
+              <div class="feature-head">
+                <span class="feature-icon feature-icon-branch" aria-hidden="true"></span>
+                <p class="summary-kicker">Replay Branching</p>
+              </div>
+              <p class="summary-detail">Pause, rewind, and fork outcomes instantly.</p>
+            </div>
+            <div class="feature-item">
+              <div class="feature-head">
+                <span class="feature-icon feature-icon-check" aria-hidden="true"></span>
+                <p class="summary-kicker">Clear Decisions</p>
+              </div>
+              <span class="feature-accent feature-meter" aria-hidden="true">
+                <span class="feature-meter-fill"></span>
+              </span>
+              <p class="summary-detail">
+                Get risk levels, failure probability, key drivers.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div class="module module-note">
+          <h2 class="note-headline">Know Risk. Before Trades.</h2>
+          <div class="note-mark" aria-hidden="true">
+            <span>Φ</span>
+            <span>Φ</span>
+          </div>
+        </div>
+
+        <div class="module module-image">
+          <div class="module-summary">
+            <p class="summary-kicker">Simulate with just a thought.</p>
+            <p class="summary-detail">
+              Type a scenario, define your constraints and risk, and run hundreds of
+              variations instantly. See how different conditions play out, where
+              outcomes diverge, and where your strategy breaks before it costs you.
+            </p>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+    <footer class="footer">
+      <section class="green">
+        <div class="powered-by">
+          <span class="powered-line">
+            • POWERED BY
+            <span class="brand-lockup">
+              <img src="/Oriphim.jpg" alt="Oriphim Labs" class="brand-mark" />
+              <span>ORIPHIM LABS</span>
+            </span>
+          </span>
+        </div>
+        <div class="terminal">
+          <div class="terminal-column">
+            <span class="terminal-tagline">Simulate Markets</span>
+            <span class="terminal-tagline">Detect Emergence</span>
+          </div>
+          <div class="terminal-column">
+            <span class="terminal-tagline">See the Unseen</span>
+            <span class="terminal-tagline">Sight is a Gift</span>
+          </div>
+          <a class="footer-x" href="https://x.com/_phil_v" target="_blank" rel="noreferrer">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-label="X">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.6l-5.165-6.75-5.868 6.75h-3.308l7.73-8.835L2.56 2.25h6.772l4.683 6.18 5.49-6.18zM17.7 19.5h1.832L6.28 4.07H4.298L17.7 19.5z"/>
+            </svg>
+          </a>
+        </div>
+      </section>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
