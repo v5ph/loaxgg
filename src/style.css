@@ -54,6 +54,11 @@ a {
   color: inherit;
 }
 
+::selection {
+  background: #95429e;
+  color: #ffffff;
+}
+
 .page-shell {
   padding: 18px;
 }
