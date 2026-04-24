@@ -842,9 +842,9 @@ a {
 
 .terminal {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-end;
-  gap: 36px;
+  gap: 20px;
   text-align: left;
   font-size: 18px;
   font-family: "Courier New", Courier, monospace;
@@ -854,22 +854,11 @@ a {
 .terminal-tagline {
   font-family: "Rajdhani", sans-serif;
   font-weight: 700;
-}
-
-.terminal-copy {
-  display: flex;
-  justify-content: flex-end;
-  gap: 20px;
+  white-space: nowrap;
 }
 
 .footer .terminal {
   min-width: 420px;
-}
-
-.terminal-column {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
 }
 
 .social-links {
